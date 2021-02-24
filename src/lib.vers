@@ -1,0 +1,33 @@
+/*
+libc - lib.vers
+Nathan McMillan <nathanmcmillan54@gmail.com>
+
+    Vers libc library
+    C std functions for Vers
+
+*/
+
+
+
+/* stdio.h */
+decextern printf
+decextern scanf
+
+/* unistd.h */
+decextern sleep
+
+decfun c_print
+decfun c_scanf
+decfun c_sleep
+
+fun c_print() {
+    printf();
+}
+
+fun c_scanf() {
+    scanf();
+}
+
+fun c_sleep() {
+    sleep();
+}
