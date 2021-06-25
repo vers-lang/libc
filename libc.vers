@@ -1,0 +1,2 @@
+external fun printf(const var: string fmt, ...);
+external fun scanf(const var: string fmt, ...);
